@@ -113,4 +113,4 @@ def dados(dado):
 
         return retorno
 
-app.run()
+app.run(port='8080')
