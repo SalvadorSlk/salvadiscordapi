@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return 'seu ip foi logged.'
+    return 'seu ip foi logged...'
 
 @app.route('/info=<dado>')
 def dados(dado):
